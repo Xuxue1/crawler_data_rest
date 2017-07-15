@@ -1,0 +1,15 @@
+server:
+  port: 8887
+spring:
+  application:
+    name: openapi-provider-bill    # 项目名称尽量用小写
+
+damatu:
+  appID: 48120
+  user: xuxu2017
+  password: 6998490
+  appKey: 38c63e94d371eba7b04c15d5f5a754f5
+  rquestUrl: http://api.dama2.com:7766/app/d2File
+
+logging:
+  config: classpath:logback.xml

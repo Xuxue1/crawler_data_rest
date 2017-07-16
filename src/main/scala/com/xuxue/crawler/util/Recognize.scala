@@ -12,10 +12,12 @@ import org.apache.http.client.methods.{HttpGet, HttpUriRequest, RequestBuilder}
 import org.apache.http.impl.client.HttpClients
 import org.apache.http.util.EntityUtils
 import org.jsoup.nodes.Document
+import org.springframework.stereotype.Component
 
 /**
   * Created by nt on 2017/7/13.
   */
+@Component
 class Recognize {
 
     val LOG = Recognize.LOG
@@ -28,6 +30,7 @@ class Recognize {
         val stream = new ByteArrayOutputStream()
         stream.write((daMaTuConfig.getAppKey + daMaTuConfig.getUser).getBytes())
         stream.write(data)
+        LOG.info(s"will recognize   ${Base64.getEncoder.encodeToString(data)}")
         val request = RequestBuilder.post(daMaTuConfig.getRquestUrl)
           .addParameter("appID", daMaTuConfig.getAppID)
           .addParameter("user", daMaTuConfig.getUser)
@@ -39,6 +42,7 @@ class Recognize {
         use(HttpClients.createDefault()){ client=>
             use(client.execute(request)){ response=>
                 val string = EntityUtils.toString(response.getEntity)
+                LOG.info(s"recognize result $string")
                 Recognize.G.fromJson(string,classOf[RecognizeResult])
             }
         }

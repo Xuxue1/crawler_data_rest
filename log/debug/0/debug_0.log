@@ -15802,3 +15802,267 @@ java.lang.ClassNotFoundException: com.xuxue.crawler.util.Recode
 2017-07-16 18:50:07,273 DEBUG [main] Wire.java:72 ## http-outgoing-7 >> "Accept-Encoding: gzip,deflate[\r][\n]"
 2017-07-16 18:50:07,273 DEBUG [main] Wire.java:72 ## http-outgoing-7 >> "[\r][\n]"
 2017-07-16 18:50:07,273 DEBUG [main] Wire.java:86 ## http-outgoing-7 >> "userName=linhuiping13&password=lin123"
+2017-07-17 10:49:00,856 INFO  [main] StartupInfoLogger.java:48 ## Starting Main. on LAPTOP-OPO84Q9T with PID 15672 (D:\code\crawler_data_rest\target\classes started by nt in D:\code\crawler_data_rest)
+2017-07-17 10:49:01,013 INFO  [main] SpringApplication.java:637 ## No active profile set, falling back to default profiles: default
+2017-07-17 10:49:01,530 INFO  [main] AbstractApplicationContext.java:582 ## Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@865dd6: startup date [Mon Jul 17 10:49:01 CST 2017]; root of context hierarchy
+2017-07-17 10:49:02,406 INFO  [background-preinit] Version.java:30 ## HV000001: Hibernate Validator 5.3.5.Final
+2017-07-17 10:49:04,758 INFO  [main] TomcatEmbeddedServletContainer.java:89 ## Tomcat initialized with port(s): 8887 (http)
+2017-07-17 10:49:04,919 INFO  [main] DirectJDKLog.java:179 ## Starting service Tomcat
+2017-07-17 10:49:04,921 INFO  [main] DirectJDKLog.java:179 ## Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-07-17 10:49:05,200 INFO  [localhost-startStop-1] DirectJDKLog.java:179 ## Initializing Spring embedded WebApplicationContext
+2017-07-17 10:49:05,200 INFO  [localhost-startStop-1] EmbeddedWebApplicationContext.java:276 ## Root WebApplicationContext: initialization completed in 3692 ms
+2017-07-17 10:49:05,467 INFO  [localhost-startStop-1] ServletRegistrationBean.java:190 ## Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-17 10:49:05,473 INFO  [localhost-startStop-1] AbstractFilterRegistrationBean.java:258 ## Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-17 10:49:05,474 INFO  [localhost-startStop-1] AbstractFilterRegistrationBean.java:258 ## Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-17 10:49:05,476 INFO  [localhost-startStop-1] AbstractFilterRegistrationBean.java:258 ## Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-17 10:49:05,476 INFO  [localhost-startStop-1] AbstractFilterRegistrationBean.java:258 ## Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-17 10:49:06,164 INFO  [main] RequestMappingHandlerAdapter.java:534 ## Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@865dd6: startup date [Mon Jul 17 10:49:01 CST 2017]; root of context hierarchy
+2017-07-17 10:49:06,275 INFO  [main] AbstractHandlerMethodMapping.java:543 ## Mapped "{[/api/crawler/ping],methods=[GET || POST]}" onto public java.lang.String com.xuxue.crawler.controller.CrawlerDataController.test()
+2017-07-17 10:49:06,277 INFO  [main] AbstractHandlerMethodMapping.java:543 ## Mapped "{[/api/crawler/crawler],methods=[GET || POST]}" onto public java.lang.String com.xuxue.crawler.controller.CrawlerDataController.crawler(java.lang.String,java.lang.String,java.lang.String)
+2017-07-17 10:49:06,282 INFO  [main] AbstractHandlerMethodMapping.java:543 ## Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-17 10:49:06,283 INFO  [main] AbstractHandlerMethodMapping.java:543 ## Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-17 10:49:06,322 INFO  [main] AbstractUrlHandlerMapping.java:362 ## Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-17 10:49:06,322 INFO  [main] AbstractUrlHandlerMapping.java:362 ## Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-17 10:49:06,394 INFO  [main] AbstractUrlHandlerMapping.java:362 ## Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-17 10:49:06,675 INFO  [main] MBeanExporter.java:431 ## Registering beans for JMX exposure on startup
+2017-07-17 10:49:06,723 INFO  [main] DirectJDKLog.java:179 ## Initializing ProtocolHandler ["http-nio-8887"]
+2017-07-17 10:49:06,789 INFO  [main] DirectJDKLog.java:179 ## Starting ProtocolHandler ["http-nio-8887"]
+2017-07-17 10:49:06,845 INFO  [main] DirectJDKLog.java:179 ## Using a shared selector for servlet write/read
+2017-07-17 10:49:06,874 INFO  [main] TomcatEmbeddedServletContainer.java:198 ## Tomcat started on port(s): 8887 (http)
+2017-07-17 10:49:06,906 INFO  [main] StartupInfoLogger.java:57 ## Started Main. in 7.566 seconds (JVM running for 9.728)
+2017-07-18 11:08:09,904 INFO  [main] StartupInfoLogger.java:48 ## Starting Main. on LAPTOP-OPO84Q9T with PID 19128 (D:\code\crawler_data_rest\target\classes started by nt in D:\code\crawler_data_rest)
+2017-07-18 11:08:09,999 INFO  [main] SpringApplication.java:637 ## No active profile set, falling back to default profiles: default
+2017-07-18 11:08:10,181 INFO  [main] AbstractApplicationContext.java:582 ## Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@865dd6: startup date [Tue Jul 18 11:08:10 CST 2017]; root of context hierarchy
+2017-07-18 11:08:11,417 INFO  [background-preinit] Version.java:30 ## HV000001: Hibernate Validator 5.3.5.Final
+2017-07-18 11:08:12,855 INFO  [main] TomcatEmbeddedServletContainer.java:89 ## Tomcat initialized with port(s): 8887 (http)
+2017-07-18 11:08:12,886 INFO  [main] DirectJDKLog.java:179 ## Starting service Tomcat
+2017-07-18 11:08:12,887 INFO  [main] DirectJDKLog.java:179 ## Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-07-18 11:08:13,055 INFO  [localhost-startStop-1] DirectJDKLog.java:179 ## Initializing Spring embedded WebApplicationContext
+2017-07-18 11:08:13,055 INFO  [localhost-startStop-1] EmbeddedWebApplicationContext.java:276 ## Root WebApplicationContext: initialization completed in 2880 ms
+2017-07-18 11:08:13,336 INFO  [localhost-startStop-1] ServletRegistrationBean.java:190 ## Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-18 11:08:13,341 INFO  [localhost-startStop-1] AbstractFilterRegistrationBean.java:258 ## Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-18 11:08:13,342 INFO  [localhost-startStop-1] AbstractFilterRegistrationBean.java:258 ## Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-18 11:08:13,343 INFO  [localhost-startStop-1] AbstractFilterRegistrationBean.java:258 ## Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-18 11:08:13,343 INFO  [localhost-startStop-1] AbstractFilterRegistrationBean.java:258 ## Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-18 11:08:13,971 INFO  [main] RequestMappingHandlerAdapter.java:534 ## Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@865dd6: startup date [Tue Jul 18 11:08:10 CST 2017]; root of context hierarchy
+2017-07-18 11:08:14,084 INFO  [main] AbstractHandlerMethodMapping.java:543 ## Mapped "{[/api/crawler/ping],methods=[GET || POST]}" onto public java.lang.String com.xuxue.crawler.controller.CrawlerDataController.test()
+2017-07-18 11:08:14,086 INFO  [main] AbstractHandlerMethodMapping.java:543 ## Mapped "{[/api/crawler/crawler],methods=[GET || POST]}" onto public java.lang.String com.xuxue.crawler.controller.CrawlerDataController.crawler(java.lang.String,java.lang.String,java.lang.String)
+2017-07-18 11:08:14,089 INFO  [main] AbstractHandlerMethodMapping.java:543 ## Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-18 11:08:14,090 INFO  [main] AbstractHandlerMethodMapping.java:543 ## Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-18 11:08:14,126 INFO  [main] AbstractUrlHandlerMapping.java:362 ## Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-18 11:08:14,127 INFO  [main] AbstractUrlHandlerMapping.java:362 ## Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-18 11:08:14,178 INFO  [main] AbstractUrlHandlerMapping.java:362 ## Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-18 11:08:14,384 INFO  [main] MBeanExporter.java:431 ## Registering beans for JMX exposure on startup
+2017-07-18 11:08:14,402 INFO  [main] DirectJDKLog.java:179 ## Initializing ProtocolHandler ["http-nio-8887"]
+2017-07-18 11:08:14,419 INFO  [main] DirectJDKLog.java:179 ## Starting ProtocolHandler ["http-nio-8887"]
+2017-07-18 11:08:14,438 INFO  [main] DirectJDKLog.java:179 ## Using a shared selector for servlet write/read
+2017-07-18 11:08:14,483 INFO  [main] TomcatEmbeddedServletContainer.java:198 ## Tomcat started on port(s): 8887 (http)
+2017-07-18 11:08:14,489 INFO  [main] StartupInfoLogger.java:57 ## Started Main. in 5.621 seconds (JVM running for 7.05)
+2017-07-27 17:05:24,690 INFO  [main] StartupInfoLogger.java:48 ## Starting Main. on LAPTOP-OPO84Q9T with PID 17236 (D:\code\crawler_data_rest\target\classes started by nt in D:\code\crawler_data_rest)
+2017-07-27 17:05:24,841 INFO  [main] SpringApplication.java:637 ## No active profile set, falling back to default profiles: default
+2017-07-27 17:05:25,072 INFO  [main] AbstractApplicationContext.java:582 ## Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@865dd6: startup date [Thu Jul 27 17:05:25 CST 2017]; root of context hierarchy
+2017-07-27 17:05:25,983 INFO  [background-preinit] Version.java:30 ## HV000001: Hibernate Validator 5.3.5.Final
+2017-07-27 17:05:28,626 INFO  [main] TomcatEmbeddedServletContainer.java:89 ## Tomcat initialized with port(s): 8887 (http)
+2017-07-27 17:05:28,713 INFO  [main] DirectJDKLog.java:179 ## Starting service Tomcat
+2017-07-27 17:05:28,715 INFO  [main] DirectJDKLog.java:179 ## Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-07-27 17:05:28,943 INFO  [localhost-startStop-1] DirectJDKLog.java:179 ## Initializing Spring embedded WebApplicationContext
+2017-07-27 17:05:28,943 INFO  [localhost-startStop-1] EmbeddedWebApplicationContext.java:276 ## Root WebApplicationContext: initialization completed in 3898 ms
+2017-07-27 17:05:29,339 INFO  [localhost-startStop-1] ServletRegistrationBean.java:190 ## Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-27 17:05:29,361 INFO  [localhost-startStop-1] AbstractFilterRegistrationBean.java:258 ## Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-27 17:05:29,361 INFO  [localhost-startStop-1] AbstractFilterRegistrationBean.java:258 ## Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-27 17:05:29,362 INFO  [localhost-startStop-1] AbstractFilterRegistrationBean.java:258 ## Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-27 17:05:29,362 INFO  [localhost-startStop-1] AbstractFilterRegistrationBean.java:258 ## Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-27 17:05:30,173 INFO  [main] RequestMappingHandlerAdapter.java:534 ## Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@865dd6: startup date [Thu Jul 27 17:05:25 CST 2017]; root of context hierarchy
+2017-07-27 17:05:30,553 INFO  [main] AbstractHandlerMethodMapping.java:543 ## Mapped "{[/api/crawler/ping],methods=[GET || POST]}" onto public java.lang.String com.xuxue.crawler.controller.CrawlerDataController.test()
+2017-07-27 17:05:30,555 INFO  [main] AbstractHandlerMethodMapping.java:543 ## Mapped "{[/api/crawler/crawler],methods=[GET || POST]}" onto public java.lang.String com.xuxue.crawler.controller.CrawlerDataController.crawler(java.lang.String,java.lang.String,java.lang.String)
+2017-07-27 17:05:30,559 INFO  [main] AbstractHandlerMethodMapping.java:543 ## Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-27 17:05:30,560 INFO  [main] AbstractHandlerMethodMapping.java:543 ## Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-27 17:05:30,593 INFO  [main] AbstractUrlHandlerMapping.java:362 ## Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-27 17:05:30,594 INFO  [main] AbstractUrlHandlerMapping.java:362 ## Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-27 17:05:30,657 INFO  [main] AbstractUrlHandlerMapping.java:362 ## Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-27 17:05:30,847 INFO  [main] MBeanExporter.java:431 ## Registering beans for JMX exposure on startup
+2017-07-27 17:05:30,868 INFO  [main] DirectJDKLog.java:179 ## Initializing ProtocolHandler ["http-nio-8887"]
+2017-07-27 17:05:30,905 INFO  [main] DirectJDKLog.java:179 ## Starting ProtocolHandler ["http-nio-8887"]
+2017-07-27 17:05:30,938 INFO  [main] DirectJDKLog.java:179 ## Using a shared selector for servlet write/read
+2017-07-27 17:05:30,967 INFO  [main] TomcatEmbeddedServletContainer.java:198 ## Tomcat started on port(s): 8887 (http)
+2017-07-27 17:05:30,985 INFO  [main] StartupInfoLogger.java:57 ## Started Main. in 8.152 seconds (JVM running for 11.731)
+2017-07-27 17:07:13,193 INFO  [http-nio-8887-exec-1] DirectJDKLog.java:179 ## Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-27 17:07:13,193 INFO  [http-nio-8887-exec-1] FrameworkServlet.java:489 ## FrameworkServlet 'dispatcherServlet': initialization started
+2017-07-27 17:07:13,215 INFO  [http-nio-8887-exec-1] FrameworkServlet.java:508 ## FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2017-07-27 17:07:20,895 INFO  [http-nio-8887-exec-1] Login.scala:27 ## request header key Cache-Control value private
+2017-07-27 17:07:20,896 INFO  [http-nio-8887-exec-1] Login.scala:27 ## request header key Content-Type value text/html; charset=utf-8
+2017-07-27 17:07:20,897 INFO  [http-nio-8887-exec-1] Login.scala:27 ## request header key Location value /SVNBOUpdate.aspx
+2017-07-27 17:07:20,897 INFO  [http-nio-8887-exec-1] Login.scala:27 ## request header key Server value Microsoft-IIS/10.0
+2017-07-27 17:07:20,898 INFO  [http-nio-8887-exec-1] Login.scala:27 ## request header key X-AspNet-Version value 4.0.30319
+2017-07-27 17:07:20,898 INFO  [http-nio-8887-exec-1] Login.scala:27 ## request header key X-Powered-By value ASP.NET
+2017-07-27 17:07:20,899 INFO  [http-nio-8887-exec-1] Login.scala:27 ## request header key Date value Thu, 27 Jul 2017 09:07:23 GMT
+2017-07-27 17:07:20,899 INFO  [http-nio-8887-exec-1] Login.scala:27 ## request header key Content-Length value 134
+2017-07-27 17:07:20,901 INFO  [http-nio-8887-exec-1] Login.scala:32 ## status code 302
+2017-07-27 17:07:20,901 INFO  [http-nio-8887-exec-1] Login.scala:33 ## will request https://svnbackoffice.net/SVNBOUpdate.aspx
+2017-07-27 17:07:33,510 INFO  [http-nio-8887-exec-1] Login.scala:37 ## Login success!
+2017-07-27 17:07:49,690 INFO  [http-nio-8887-exec-1] CrawlerDataController.scala:43 ## crawler xuFeiDate 9/2/2017
+2017-07-27 17:08:10,715 WARN  [http-nio-8887-exec-1] CrawlerData.scala:29 ## request https://svnbackoffice.net/SVNBOGSPCashBack.aspx?anchor=cashback
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_131]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_131]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_131]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_131]
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465) ~[na:1.8.0_131]
+	at sun.security.ssl.InputRecord.readV3Record(InputRecord.java:593) ~[na:1.8.0_131]
+	at sun.security.ssl.InputRecord.read(InputRecord.java:532) ~[na:1.8.0_131]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973) ~[na:1.8.0_131]
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930) ~[na:1.8.0_131]
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105) ~[na:1.8.0_131]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.6.jar:4.4.6]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.6.jar:4.4.6]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282) ~[httpcore-4.4.6.jar:4.4.6]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.6.jar:4.4.6]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.6.jar:4.4.6]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.6.jar:4.4.6]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.6.jar:4.4.6]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[httpclient-4.5.2.jar:4.5.2]
+	at com.xuxue.crawler.util.CrawlerData.execute(CrawlerData.scala:26) [classes/:na]
+	at com.xuxue.crawler.util.CrawlerData.crawlerBangDianDate(CrawlerData.scala:49) [classes/:na]
+	at com.xuxue.crawler.controller.CrawlerDataController.crawler(CrawlerDataController.scala:45) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-27 17:08:16,799 INFO  [http-nio-8887-exec-1] CrawlerDataController.scala:46 ## crawler bangDian 2/20/2017
+2017-07-27 17:08:19,706 INFO  [http-nio-8887-exec-1] CrawlerDataController.scala:49 ## crawler shuHuiDate  8/10/2017
+2017-07-27 17:08:22,894 INFO  [http-nio-8887-exec-1] CrawlerDataController.scala:52 ## crawler xiaoFeiJilu [Recode(05-23-2017, hualianjimaisheng, yangpuqu kongjianglu 1063 hao shanghai shanghai, False, Union Pay, 2005, $80.00, $16.00), Recode(05-25-2017, fengshouri, yangpuqu sipinglu 2152 hao shanghai 200082, False, Union Pay, 2005, $82.00, $16.40), Recode(06-04-2017, kaiyuejiudian, yangpuqu guodingdonglu 88hao 6 lou shanghai 200082, False, Union Pay, 2005, $290.00, $58.00), Recode(06-11-2017, darunfa, yangpuqu huangxinglu 1618 hao shanghai 200082, False, Union Pay, 2005, $286.00, $57.20), Recode(06-17-2017, hualianjimaisheng, yangpuqu kongjianglu 1063 hao shanghai shanghai, False, Union Pay, 2005, $298.00, $59.60), Recode(06-25-2017, fengshouri, yangpuqu sipinglu 2152 hao shanghai 200082, False, Union Pay, 2005, $220.00, $44.00)]
+2017-07-27 17:08:30,096 INFO  [http-nio-8887-exec-1] CrawlerDataController.scala:55 ## crawler fanXian [FanXian(07-21-2017, Starting Balance, 176.00, , 176.00), FanXian(07-21-2017, Elite Founder, 30.00, , 206.00), FanXian(07-21-2017, EWallet Redemption - GSP Renewal Pass E7ac3f731-7446-4679-8bc1-c58fc04116fe, , 125.00, 81.00), FanXian(07-22-2017, Elite Founder, 30.00, , 111.00), FanXian(07-23-2017, Elite Founder, 30.00, , 141.00), FanXian(07-24-2017, Elite Founder, 30.00, , 171.00), FanXian(07-25-2017, EWallet Redemption - GSP Pass E1c9ca495-2937-4b9b-8aaa-9c92aa9b984a, , 125.00, 46.00)]
+2017-07-27 17:08:49,237 INFO  [http-nio-8887-exec-1] CrawlerDataController.scala:58 ## crawler tuanDui Genealogy My rank: Member Current active members in teams: Team 1: 50    Team 2: 40    Team 3: 0 Active Personals: 3
+2017-07-27 17:08:55,962 ERROR [http-nio-8887-exec-1] DirectJDKLog.java:181 ## Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index: 7, Size: 7] with root cause
+java.lang.IndexOutOfBoundsException: Index: 7, Size: 7
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653) ~[na:1.8.0_131]
+	at java.util.ArrayList.get(ArrayList.java:429) ~[na:1.8.0_131]
+	at org.jsoup.nodes.Element.child(Element.java:200) ~[jsoup-1.9.2.jar:na]
+	at com.xuxue.crawler.util.CrawlerData.$anonfun$crawlerTuiRen$2(CrawlerData.scala:133) ~[classes/:na]
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:234) ~[scala-library-2.12.1.jar:na]
+	at scala.collection.Iterator.foreach(Iterator.scala:929) ~[scala-library-2.12.1.jar:na]
+	at scala.collection.Iterator.foreach$(Iterator.scala:929) ~[scala-library-2.12.1.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1406) ~[scala-library-2.12.1.jar:na]
+	at scala.collection.IterableLike.foreach(IterableLike.scala:71) ~[scala-library-2.12.1.jar:na]
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:70) ~[scala-library-2.12.1.jar:na]
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:54) ~[scala-library-2.12.1.jar:na]
+	at scala.collection.TraversableLike.map(TraversableLike.scala:234) ~[scala-library-2.12.1.jar:na]
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:227) ~[scala-library-2.12.1.jar:na]
+	at scala.collection.AbstractTraversable.map(Traversable.scala:104) ~[scala-library-2.12.1.jar:na]
+	at com.xuxue.crawler.util.CrawlerData.$anonfun$crawlerTuiRen$1(CrawlerData.scala:125) ~[classes/:na]
+	at com.xuxue.crawler.util.Loan$.use(Loan.scala:9) ~[classes/:na]
+	at com.xuxue.crawler.util.CrawlerData.crawlerTuiRen(CrawlerData.scala:120) ~[classes/:na]
+	at com.xuxue.crawler.controller.CrawlerDataController.crawler(CrawlerDataController.scala:60) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]

@@ -21,8 +21,6 @@ class CrawlerData(val client:CloseableHttpClient) {
           .setSocketTimeout(10000)
           .setConnectTimeout(10000).build()
 
-
-
     def execute(httpUriRequest: HttpUriRequest,times:Int):CloseableHttpResponse={
         try{
             client.execute(httpUriRequest)

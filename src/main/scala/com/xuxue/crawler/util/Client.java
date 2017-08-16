@@ -16,7 +16,7 @@ public class Client {
 
 
     public static String crawler(String userName,String password)throws Exception{
-        String urlPath = "http://47.92.82.249:8887/api/crawler/crawler";
+        String urlPath = "http://localhost:8887/api/crawler/crawler";
         String param="userName="+ URLEncoder.encode(userName,"UTF-8")+"&password="+URLEncoder.encode(password,"UTF-8");
         //建立连接
         URL url=new URL(urlPath);
